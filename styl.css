@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Montserrat&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/pic/dark\ web.jpg);
+  /* background-color: rgb(51, 51, 51); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  font-family: "Baloo Bhai 2", cursive;
+  /* opacity: 0.7; */
+}
+
+.nav {
+  background-color: rgb(100, 100, 100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  /* margin-top: 4px; */
+  box-sizing: border-box;
+  border: none;
+  box-shadow: 2px 2px 8px rgb(255, 255, 160);
+  position: fixed;
+}
+
+.logo {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: white;
+  margin-right: auto;
+  /* border-radius: 50px; */
+  margin-left: 9px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.button {
+  background-color: rgb(142, 44, 44);
+  color: white;
+  font-size: 16px;
+  margin-right: 40px;
+  border: 1px solid white;
+  /* padding: 10px; */
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  border-radius: 7px;
+  transition: 0.3s;
+  font-weight: bold;
+  /* letter-spacing: 1px; */
+}
+
+.button2 {
+  background-color: rgb(96, 156, 45);
+  color: white;
+  font-size: 16px;
+  margin-right: 40px;
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.button2:hover {
+  transform: scale(1.08);
+}
+.button:hover {
+  transform: scale(1.08);
+}
+
+ul {
+  margin-right: 200px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-align: center;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 60px;
+  margin-right: 60px;
+  border: none;
+  border-radius: 6px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background-color: rgb(42, 42, 42);
+  color: rgb(255, 255, 160);
+  transition: 0.3s;
+}
+
+.a:hover {
+  background-color: rgb(255, 215, 142);
+  color: rgb(33, 33, 33);
+}
+
+h1 {
+  display: inline-block;
+  position: absolute;
+  top: 27%;
+  color: rgb(255, 255, 255);
+  left: 32%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  display: inline-block;
+  color: rgb(246, 255, 0);
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-top: 300px;
+  margin-left: 630px;
+}
