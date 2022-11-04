@@ -8,9 +8,22 @@
 }
 
 body {
-  background-color: rgb(40, 40, 40);
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   width: 100%;
-  height: 100vh;
+  height: 200vh;
   font-family: "Baloo Bhai 2", cursive;
   color: white;
   position: relative;
@@ -26,7 +39,7 @@ body {
   box-sizing: border-box;
   border: none;
   box-shadow: 2px 2px 8px rgb(255, 255, 160);
-  position: fixed;
+  /* position: fixed;s */
 }
 
 .logo {
@@ -113,17 +126,83 @@ h2 {
 }
 
 .img {
-  background-image: url(/pic/background.avif);
+  margin: 100px;
+  background-image: url(/pic/pback.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
-  top: 400px;
+  top: 300px;
   padding: 20px;
-  height: 50vh;
+  height: 63vh;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 4px rgb(255, 197, 6);
 }
 
 .img p {
   font-size: 20px;
-  color: brown;
+  color: rgb(208, 202, 38);
+}
+
+.box1 {
+  display: inline-block;
+  width: 500px;
+  height: 60vh;
+  border: 1px solid black;
+  position: relative;
+  margin-top: 500px;
+  margin-left: 200px;
+  background: #c9d6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 4px rgb(189, 189, 189);
+}
+
+.box2 {
+  display: inline-block;
+  width: 500px;
+  height: 60vh;
+  border: 1px solid black;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 500px;
+  background: #0cebeb; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #29ffc6,
+    #20e3b2,
+    #0cebeb
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #29ffc6,
+    #20e3b2,
+    #0cebeb
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 4px rgb(0, 238, 255);
+}
+
+.svg-down {
+  margin-top: 100px;
+}
+
+.svg-down2 {
+  margin-top: 100px;
 }
