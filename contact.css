@@ -8,10 +8,10 @@
 }
 
 body {
+  font-family: "Baloo Bhai 2", cursive;
+  background-color: rgb(101, 101, 101);
   width: 100%;
   height: 100vh;
-  position: relative;
-  font-family: "Baloo Bhai 2", cursive;
 }
 
 .nav {
@@ -49,7 +49,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   cursor: pointer;
-  border-radius: 7px;
+  border-radius: 3px;
   transition: 0.3s;
   font-weight: bold;
 }
@@ -58,7 +58,11 @@ body {
   transform: scale(1.08);
 }
 .btn {
-  margin-right: 20px;
+  margin-right: 40px;
+}
+
+ul {
+  margin-left: 100px;
 }
 
 ul li {
@@ -85,34 +89,4 @@ ul li a {
 .a:hover {
   background-color: rgb(255, 215, 142);
   color: rgb(33, 33, 33);
-}
-
-h1 {
-  display: inline-block;
-  position: absolute;
-  top: 27%;
-  color: rgb(255, 255, 255);
-  left: 32%;
-  font-family: "Montserrat", sans-serif;
-  font-size: 50px;
-  letter-spacing: 2px;
-}
-
-h2 {
-  display: inline-block;
-  color: rgb(246, 255, 0);
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  letter-spacing: 2px;
-  margin-top: 300px;
-  margin-left: 630px;
-}
-
-#home {
-  background-image: url(/pic/dark\ web.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  height: 100vh;
 }

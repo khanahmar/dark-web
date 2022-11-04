@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(/pic/dark\ web.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.nav {
+  background-color: rgb(108, 71, 145);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  box-sizing: border-box;
+  border: none;
+  box-shadow: 2px 2px 8px rgb(255, 255, 160);
+  /* position: fixed; */
+}
+
+.logo {
+  margin-left: 10px;
+  margin-top: 5px;
+  border-radius: 100px;
+  cursor: pointer;
+  width: 70px;
+  background-color: rgb(255, 247, 6);
+  padding: 10px;
+}
+
+.button {
+  background-color: rgb(32, 176, 145);
+  color: white;
+  font-size: 16px;
+  margin-right: 5px;
+  border: none;
+  outline: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.button:hover {
+  transform: scale(1.08);
+}
+.btn {
+  margin-right: 40px;
+}
+
+ul {
+  margin-left: 100px;
+}
+
+ul li {
+  display: inline-block;
+  margin: 30px;
+}
+
+ul li a {
+  text-align: center;
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  border: none;
+  border-radius: 4px;
+  padding-left: 17px;
+  padding-right: 17px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  color: rgb(248, 248, 183);
+  transition: 0.3s;
+}
+
+.a:hover {
+  background-color: rgb(255, 215, 142);
+  color: rgb(33, 33, 33);
+}
+
+h1 {
+  display: inline-block;
+  position: absolute;
+  top: 40%;
+  color: rgb(255, 255, 255);
+  left: 28%;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  display: inline-block;
+  color: rgb(246, 255, 0);
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-top: 350px;
+  margin-left: 600px;
+}
