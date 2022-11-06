@@ -29,7 +29,6 @@ body {
   box-sizing: border-box;
   border: none;
   box-shadow: 2px 2px 8px rgb(255, 255, 160);
-  /* position: fixed; */
 }
 
 .logo {
